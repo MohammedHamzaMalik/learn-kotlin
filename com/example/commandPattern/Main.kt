@@ -68,4 +68,5 @@ fun main() {
     println(calc.executeCommand(AddCommand(4)))
     println(calc.executeCommand(AddCommand(20)))
     println(calc.executeCommand(AddCommand(4)))
+    println(calc.undoCommand(AddCommand(10)))
 }
